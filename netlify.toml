@@ -5,9 +5,3 @@
 [[plugins]]
 package = "@netlify/plugin-nextjs"
 
-[[redirects]]
-  from = "/*"
-  to = "/redirect-page"
-  status = 301
-  condition = "Context.userAgent && Context.userAgent.includes('facebookexternalhit')"
-
